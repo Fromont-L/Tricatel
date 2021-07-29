@@ -1,0 +1,85 @@
+liste_plat_tricatel
+
+1 - Lasagnes 										Flexitarien				Europe					Souper				Salé				Image o
+2 - Tacos à la mexicaine							Végétalien				Amérique				Déjeuner			Salé				Image o
+3 - Salade de thon composée					 		Flexitarien				Europe					Déjeuner			Salé				Image o
+4 - Penne sauce pesto								Végétalien				Europe					Déjeuner			Salé				Image o
+5 - Spaghetti bolognaises							Flexitarien				Europe					Souper				Salé				Image o
+6 - Hamburger copieux								Flexitarien				Amérique				Déjeuner			Salé				Image o
+7 - Club sandwich au poulet							Flexitarien				Europe					Collation			Salé				Image o
+8 - Tarte au kumquat								Végétarien				Europe					Dessert				Sucré				Image o
+9 - Tartelette aux fruits rouges					Végétarien				Europe					Petit-déjeuner		Sucré				Image o
+10 - Ailes de poulet								Carnivore				Asie					Déjeuner			Salé				Image o
+11 - Saumon asperges								Flexitarien				Europe					Souper				Salé				Image o
+12 - Brochettes de poulet							Flexitarien				Europe					Déjeuner			Salé				Image o
+13 - Crêpe fraise chocolat							Végétarien				Europe					Dessert				Sucré				Image o
+14 - Penne aux boulettes de viande					Flexitarien				Europe					Déjeuner			Salé				Image o
+15 - Tajine à l'agneau								Flexitarien				Afrique					Déjeuner			Salé				Image o
+16 - Mochis	au thé vert								Végétalien				Asie					Collation			Sucré				Image o
+17 - Energy balls									Végétalien				Amérique				Collation			Sucré				Image o
+18 - Calzone Marguerita								Végétarien				Europe					Déjeuner 			Salé				Image o
+19 - Ecrasé de pommes de terre						Végétalien				Europe					Déjeuner 			Salé				Image o
+20 - Panequais										Végétarien				Europe					Petit-déjeuner		Sucré				Image o
+21 - Viennoiseries									Végétarien				Europe					Petit-déjeuner		Sucré				Image n	
+22 - Croquettes de fromage blanc					Végétarien				Asie					Petit-déjeuner		Sucré				Image o
+23 - Plateau de charcuterie							Carnivore				Europe					Déjeuner 			Salé				Image o
+
+Liste officielle des plats
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
+
+Inverser tricatel.php avec index.php
+Se servir de	<?php if ($login){ ?>
+				<div> Private </div>
+				<?php } ?>
+
+Rediriger si pas login du genre pour modifier/supprimer/ajouter : fait ?
+
+Créer le deconnexion.php : fait
+
+
+
+
+<p> <?php echo password_hash('meilleurmotdepasse', PASSWORD_DEFAULT) ?> </p> Pour voir le hash de son mot de passe et l'insérer dans la base de données, il fonctionne à sens unique, c'est à dire que l'on ne peut pas le récupérer à partir du hash, uniquement à partir du mot de passe lui-même !
+
+Faire un tri avec JS pour afficher uniquement les produits sucrés/salés, par origine, par pratique d'alimentation et par type(Petit-déjeuner, Déjeuner...)
+Système de tri (filtre)
+
+Faire fonctionner le CRUD
+Create : oui
+Read : non
+Update : non
+Delete : non
+
+Pour l'image mettre le lien direct
+
+if(condition){ a = oui } else{ a = non } a = (condition)? oui : non;
